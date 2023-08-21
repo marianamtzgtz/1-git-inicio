@@ -34,7 +34,11 @@ body{
 .menu{
     width: 25%;
     height: 100%;
-    background: rgb(255, 106, 0);
+    background: rgb(0, 229, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .titulo{
@@ -59,4 +63,15 @@ body{
 
 .nota:hover {
     background: yellow;
+}
+
+.btnvinculo {
+    display: block;
+    text-decoration: none;
+    color: black !important;
+    background: bisque;
+    border-radius: 5px;
+    border-color: brown;
+    border-width: 1px;
+    padding: 10px;
 }
